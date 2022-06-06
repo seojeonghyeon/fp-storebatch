@@ -1,0 +1,13 @@
+# LOCAL SET
+spring:
+  cloud:
+    config:
+      uri: http://127.0.0.1:8888
+      name: fp-storebatch-dev
+
+# PRD, STG SET
+#spring:
+#  cloud:
+#    config:
+#      uri: http://172.168.0.3:8888
+#      name: fp-storebatch-prd
